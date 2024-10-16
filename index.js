@@ -12,7 +12,7 @@ app.use(express.json());
 // CORS configuration
 app.use(
   cors({
-    origin: "http://192.168.155.174:5173",
+    origin: "*",
   })
 );
 
